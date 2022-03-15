@@ -1,0 +1,8 @@
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\bin\Debug\AddressBookLINQ.exe.config
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\bin\Debug\AddressBookLINQ.exe
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\bin\Debug\AddressBookLINQ.pdb
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\obj\Debug\AddressBookLINQ.csproj.AssemblyReference.cache
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\obj\Debug\AddressBookLINQ.csproj.SuggestedBindingRedirects.cache
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\obj\Debug\AddressBookLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\obj\Debug\AddressBookLINQ.exe
+C:\Users\Shree\source\repos\AddressBookLINQ\AddressBookLINQ\obj\Debug\AddressBookLINQ.pdb
