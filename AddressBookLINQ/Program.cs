@@ -33,6 +33,9 @@ namespace AddressBookLINQ
                     dataTableManager.EditDataTable("Ajim", "FirstName", "Najim");
                     break;
                 case 5:
+                    dataTableManager.DeleteRowInDataTable("Swagata");
+                    break;
+                case 6:
                     flag = false;
                     break;
             }
