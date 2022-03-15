@@ -33,9 +33,12 @@ namespace AddressBookLINQ
                     dataTableManager.EditDataTable("Ajim", "FirstName", "Najim");
                     break;
                 case 5:
-                    dataTableManager.DeleteRowInDataTable("Swagata");
+                    dataTableManager.DeleteRowInDataTable("Sourabh");
                     break;
                 case 6:
+                    dataTableManager.RetrieveBasedOnCityorState("Vathar", "Maharashtra");
+                    break;
+                case 7:
                     flag = false;
                     break;
             }
