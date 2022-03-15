@@ -47,6 +47,10 @@ namespace AddressBookLINQ
                     Console.WriteLine(r1);
                     break;
                 case 9:
+                    string r2 = dataTableManager.RetrieveCountBasedOnType();
+                    Console.WriteLine(r2);
+                    break;
+                case 10:
                     flag = false;
                     break;
             }
