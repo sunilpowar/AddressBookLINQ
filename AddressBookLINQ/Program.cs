@@ -39,6 +39,14 @@ namespace AddressBookLINQ
                     dataTableManager.RetrieveBasedOnCityorState("Vathar", "Maharashtra");
                     break;
                 case 7:
+                    string res = dataTableManager.RetrieveCountBasedOnCityorState();
+                    Console.WriteLine(res);
+                    break;
+                case 8:
+                    string r1 = dataTableManager.SortBasedOnCity("Pune");
+                    Console.WriteLine(r1);
+                    break;
+                case 9:
                     flag = false;
                     break;
             }
