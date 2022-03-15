@@ -112,7 +112,61 @@ namespace AddressBookLINQ
 
             Console.WriteLine("Created Table Successfully!!!");
         }
-              
+
+        //Insert Values in Datatable        
+        public int AddValues()
+        {
+            CreateDataTable();
+            //Create Object for DataTable
+            DataManager contactDataManager = new DataManager();
+            //DataManager contactDataManagers = new DataManager();
+            //Insert Values into Table
+            contactDataManager.FirstName = "Sourabh";
+            contactDataManager.LastName = "Powar";
+            contactDataManager.PhoneNumber = 9970965485;
+            contactDataManager.Email = "sourabhpowar@gmail.com";
+            contactDataManager.Address = "Chikhali";
+            contactDataManager.City = "Kolhaour";
+            contactDataManager.State = "Maharashtra";
+            contactDataManager.zip = 416235;
+            InsertintoDataTable(contactDataManager);
+
+            //Insert Values into Table
+            contactDataManager.FirstName = "Prafull";
+            contactDataManager.LastName = "Jangam";
+            contactDataManager.PhoneNumber = 6548798417;
+            contactDataManager.Email = "perafull@gmail.com";
+            contactDataManager.Address = "Narhe";
+            contactDataManager.City = "Pune";
+            contactDataManager.State = "Maharashtra";
+            contactDataManager.zip = 413654;
+            InsertintoDataTable(contactDataManager);
+
+            contactDataManager.FirstName = "Ajim";
+            contactDataManager.LastName = "Maner";
+            contactDataManager.PhoneNumber = 6517987465;
+            contactDataManager.Email = "ajim@gmail.com";
+            contactDataManager.Address = "Kini";
+            contactDataManager.City = "Vathar";
+            contactDataManager.State = "Maharashtra";
+            contactDataManager.zip = 416574;
+            InsertintoDataTable(contactDataManager);
+            return dataTable.Rows.Count;
+        }
+        //Insert values in Data Table
+        public void InsertintoDataTable(DataManager contactDataManager)
+        {
+            DataRow dtRow = dataTable.NewRow();
+            dtRow["FirstName"] = contactDataManager.FirstName;
+            dtRow["LastName"] = contactDataManager.LastName;
+            dtRow["Address"] = contactDataManager.Address;
+            dtRow["City"] = contactDataManager.City;
+            dtRow["State"] = contactDataManager.State;
+            dtRow["Zip"] = contactDataManager.zip;
+            dtRow["PhoneNumber"] = contactDataManager.PhoneNumber;
+            dtRow["Email"] = contactDataManager.Email;
+            dataTable.Rows.Add(dtRow);
+        }
 
     }
 }
