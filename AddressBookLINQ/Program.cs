@@ -27,6 +27,12 @@ namespace AddressBookLINQ
                     Console.WriteLine("Values Added Succesfully!!!!");
                     break;
                 case 3:
+                    dataTableManager.Display();
+                    break;
+                case 4:
+                    dataTableManager.EditDataTable("Ajim", "FirstName", "Najim");
+                    break;
+                case 5:
                     flag = false;
                     break;
             }
